@@ -2,7 +2,7 @@
   "name": "fashion",
   "version": "1.0.0",
   "description": "",
-  "source": "src/main.html",
+  "source": "dist/main.html",
   "scripts": {
     "kaldir": "parcel --no-cache src/main.html",
     "start": "parcel",
