@@ -6,7 +6,7 @@
   "scripts": {
     "kaldir": "parcel --no-cache src/main.html",
     "start": "parcel",
-    "build": "parcel build src/index.html --public-url ./"
+    "build": "parcel build src/main.html --public-url ./"
   },
   "keywords": [],
   "author": "",
