@@ -1,0 +1,143 @@
+nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: $textColor;
+    background-color: transparent;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+    z-index: 5;
+    .interview {
+        font-family: SF Pro Display Regular;
+        font-size: calc(15px + .5vw);   
+        font-style: bold;
+        text-transform: capitalize;
+        color: $textColor;
+        filter: drop-shadow(1px 1px 1px black);
+
+    }
+    .ham {
+        display: block;
+        width: 4rem;
+          cursor: pointer;
+          -webkit-tap-highlight-color: transparent;
+          transition: transform 400ms;
+          -moz-user-select: none;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+        .hamRotate.active {
+          transform: rotate(45deg);
+        }
+        .hamRotate180.active {
+          transform: rotate(180deg);
+        }
+        .line {
+          fill:none;
+          transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+          stroke: $textColor;
+          stroke-width:5.5;
+          stroke-linecap:round;
+          filter: drop-shadow(1px 1px 3px black);
+          
+        }
+        
+        
+        .ham6 .top {
+          stroke-dasharray: 40 172;
+        }
+        .ham6 .middle {
+          stroke-dasharray: 40 111;
+        }
+        .ham6 .bottom {
+          stroke-dasharray: 40 172;
+        }
+        .ham6.active .top {
+          stroke-dashoffset: -132px;
+        }
+        .ham6.active .middle {
+          stroke-dashoffset: -71px;
+        }
+        .ham6.active .bottom {
+          stroke-dashoffset: -132px;
+        }
+        
+    .open-menu {display: block;}
+
+    .menu {
+        @include SpaceBetween;
+        width: 100%;
+        min-height: 40px;
+        list-style: none;
+        position: relative;
+        background-color: transparent;
+        padding: 0 10vw; 
+        overflow: hidden;
+        
+        input#menu-opener {
+            display: none;
+        }
+        input:checked ~ label {
+                width: 32px;
+                height: 32px;
+
+            }
+            input:checked ~ .options {
+                max-height: 100%;
+                max-width: 100%;
+                
+                
+            }
+            .options {
+                @include ColumnBetween;
+                width: 100%;
+                height: 100vh;
+                position: fixed;
+                top: -100%;
+                left: 0;
+                z-index: -3;
+                background: white;
+                transition: all 0.5s ease-in-out;
+                padding: 25px;
+                padding-top: 10vh;
+                li {
+                    width: 100%;
+                    height: fit-content;
+                    padding-left: 10vw;
+                    padding-bottom: 15px;
+                    overflow-y: hidden; 
+
+                    a {
+                        @include sec-title-h1;
+                        color: black;
+                        &:hover {
+                          border-bottom: 2px solid black;
+                          transition: 0.5s ease-in-out;
+                        }
+                        
+                    }
+                }
+            }
+            .options li a:hover:before {width: 100%;}
+    .open-menu {
+        position: absolute;
+        color: #fff;
+        cursor: pointer;
+        
+    }
+    .open-menu {
+        top: 50%;
+        transform: translateY(-50%);
+        right: 2rem;
+    }
+            #menu-opener:checked ~ .options {
+                top: 0;
+              }    
+    }
+    
+    
+}

@@ -1,0 +1,40 @@
+@mixin sec-title{
+    font-family: SF Pro Display Medium;
+    font-size: calc(18px + 1.25vw);
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: calc(20px + 2.5vh);
+}
+
+@mixin sec-body{
+    font-family: SF Pro Display Regular;
+    font-size: calc(7px + .5vw);
+    font-weight: 400;
+    line-height: calc(8px + .9vh);
+    opacity: .9;
+}
+@mixin sec-m-16px {
+    font-family: SF Pro Display Medium;
+    font-size: calc(7px + .5vw);
+    line-height: calc(10px + 1vh);
+    text-transform: capitalize;
+    opacity: .9;
+}
+@mixin sec-title-h1 {
+    font-family: SF Pro Display Medium;
+    font-size: calc(36px + 2.5vw);
+    line-height: calc(40px + 5vh);
+    text-transform: capitalize;
+}
+@mixin sec-title-h2 {
+    font-family: SF Pro Display Medium;
+    font-size: calc(32px + 2.3vw) ;
+    line-height: calc(38px + 4.5vh);
+    text-transform: capitalize;
+}
+@mixin sec-title-h3 {
+    font-family: SF Pro Display Medium;
+    font-size: calc(24px + 1.6vw);
+    line-height: calc(28px + 3vh);
+    text-transform: capitalize;
+}

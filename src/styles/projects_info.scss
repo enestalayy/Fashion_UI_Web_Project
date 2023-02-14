@@ -1,0 +1,135 @@
+section#projects_info_01 {
+    position: relative;
+    overflow: hidden;
+
+    .video_projects_info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        #projects_info_video {
+            object-fit: cover;
+            width: 100%;
+            min-height: 100vh;
+        }
+    }
+}
+section#projects_info_02 {
+    
+    h6 {
+        @include sec-m-16px;
+    }
+    
+    .content_projects_info {
+        width: 90%;
+        height: auto;
+        @include SpaceBetween;
+        padding: 9vw;
+        h1 {
+            @include sec-title-h1;
+        }
+        .left_projects_info {
+            width: 62%;
+            p {
+                @include sec-title;
+            }
+            :not(:first-child) {
+                padding-left: 10px;
+            }
+        }
+        .right_projects_info {
+            h6 {
+                opacity: 1;
+            }
+            li {
+                @include sec-body;
+                font-style: normal;
+            }
+        }
+    }
+    .bottom_projects_info {
+        padding-top: 12vh;
+        .images_projects_info {
+            width: 100%;
+            height: auto;
+            overflow-y: hidden;
+            overflow-x: scroll;
+            white-space: nowrap;
+            img {
+                width: 30%;
+                height: auto;
+                vertical-align: middle;
+                margin-right: 3vw; 
+            }
+        }
+        .slider_projects_info {
+            padding-left: 9vw;
+            @include SpaceBetween;
+            button {
+                font-size: 4vw;
+                background: none;
+                cursor: pointer;
+                padding-right: 2vw;
+            }
+        }
+    }
+}
+section#projects_info_03 {
+    background-color: #000;
+    color: $textColor;
+    .video_projects {
+        padding: 5vw;
+        margin-left: auto;
+        margin-right: auto;
+        #video_projects {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .video_options {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        @include SpaceBetween;
+        margin-left: auto;
+        margin-right: auto;
+        .command1 {
+            color: $textColor;
+            cursor: pointer;
+            label {
+                color: $textColor;
+                .change1 span::before {
+                    content: attr(data-play-text);
+                }
+                
+            }
+            #play-pause1 {
+                display: none;
+                &:checked {
+                    & + .video_control1 {
+                        label {
+                            .change1 span::before {
+                                content: attr(data-pause-text);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .command2 {
+            color: $textColor;
+            @include sec-m-16px;
+            cursor: pointer;
+        }
+    }
+    .control_projects {
+        padding: 5vw;
+        color: $textColor;
+        background-color: transparent;
+        h2 {
+            @include sec-title-h2;
+            cursor: pointer;
+        }
+    }
+
+}

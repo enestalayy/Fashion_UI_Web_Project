@@ -1,0 +1,194 @@
+section#featured_01 {
+    padding-top: 5%;
+    h6 {
+        @include sec-m-16px;
+        color: rgba($color: #000000, $alpha: .9);
+        }
+    .left_featured {
+        height: 70vh;
+        @include ColumnBetween;
+        margin-right: 5%;
+        @media (max-width: 768px){
+            height: auto;
+        }
+        :not(:last-child) {
+            padding-bottom: 20px;
+        }
+        .content_featured_01 {
+            
+            h4 {
+                @include sec-title;
+                color: #000000;
+            }
+           p {
+            @include sec-body;
+            color: rgba($color: #000000, $alpha: .9);
+           }
+           a {
+            @include sec-body;
+            color: rgba($color: #000000, $alpha: .9);
+           }
+        }
+    }
+    .right_featured {
+        
+        @include ColumnBetween;
+        @media (max-width: 768px){
+            height: auto;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+section#featured_02 {
+    position: relative;
+    overflow: hidden;
+    
+    .video-featured {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        #featuredpagevideo {
+            object-fit: cover;
+            width: 100%;
+            min-height: 100vh;
+        }
+    }
+    
+    .component_featured_02 {
+        position: absolute;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        left: 7%;
+        min-height: 100vh;
+        
+        h6 {
+        @include sec-m-16px;
+        }
+        .content_featured_02 {
+            h4 {
+                @include sec-title;
+            }
+           p {
+                @include sec-body;
+           }
+           a {
+                @include sec-body;
+                color: #fff;
+           }
+        }
+        
+        
+    }
+}
+section#featured_03 {
+    padding-top: 5%;
+    h6 {
+        @include sec-m-16px;
+        color: rgba($color: #000000, $alpha: .9);
+        }
+    .left_featured {
+        overflow-y: hidden;
+        height: 70vh;
+        @include ColumnBetween;
+        margin-right: 5%;
+        @media (max-width: 768px){
+            height: auto;
+        }
+        :not(:last-child) {
+            padding-bottom: 20px;
+        }
+        .content_featured_01 {
+            h4 {
+                @include sec-title;
+                color: #000000;
+            }
+           p {
+            @include sec-body;
+            color: rgba($color: #000000, $alpha: .9);
+           }
+           a {
+            @include sec-body;
+            color: rgba($color: #000000, $alpha: .9);
+           }
+        }
+    }
+    .right_featured {
+        @include ColumnBetween;
+        @media (max-width: 768px){
+            height: auto;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            
+        }
+    }
+}
+section#featured_04 {
+    h6 {
+        @include sec-m-16px;
+        color: rgba($color: #000000, $alpha: .9);
+        }
+    .left_featured {
+        @include ColumnBetween;
+        margin-right: 5%;
+        @media (max-width: 768px){
+            height: 40vh;
+        }
+        :not(:last-child) {
+            padding-bottom: 20px;
+        }
+        .content_featured_01 {
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: auto;
+                @media (max-width:768px) {
+                    display: none;
+                }
+            }
+            h4 {
+                @include sec-title;
+                color: #000000;
+            }
+           p {
+            @include sec-body;
+            color: rgba($color: #000000, $alpha: .9);
+           }
+           a {
+            @include sec-body;
+            color: rgba($color: #000000, $alpha: .9);
+           }
+        }
+    }
+    .right_featured {
+        
+        position: relative;
+        @media (max-width: 768px){
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            height: auto;
+            bottom: 5vh;
+        }
+        .imges {
+            white-space: nowrap;
+            overflow-x: visible;
+            
+            img {
+                width: 100%;
+                height: auto;
+                
+            }
+        }
+        
+        
+    }
+}

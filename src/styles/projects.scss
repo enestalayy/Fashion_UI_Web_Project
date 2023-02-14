@@ -1,0 +1,219 @@
+section#projects_01 {
+    background: url(/src/media/images/projects_01.webp) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: $textColor;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;    
+    h2 {
+        @include sec-title-h2;
+    }
+    h6 {
+        @include sec-m-16px;
+    }
+    p{
+        @include sec-body;
+    }
+
+    .content_projects {
+        padding: 2.5vh;
+        height: 95vh;
+        width: 100vw;
+        display: flex;
+        align-content: flex-end;
+        @media (max-width:768px) {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        .pot {
+            display: flex;
+            justify-content: space-between;
+            @media (max-width:768px) {
+                display: flex;
+                justify-content: center;
+                height: 40vh;
+            }
+            a {
+                cursor: pointer;
+                color: $textColor;
+                text-shadow:
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+            }
+        }
+        
+        
+    }
+}
+section#projects_02 {
+    background: url(/src/media/images/projects_02.webp) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: $textColor;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    h2 {
+        @include sec-title-h2;
+    }
+    h6 {
+        @include sec-m-16px;
+    }
+    p{
+        @include sec-body;
+    }
+
+    .content_projects {
+        padding: 2.5vh;
+        height: 95vh;
+        width: 100vw;
+        display: flex;
+        align-content: flex-end;
+        @media (max-width:768px) {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        .pot {
+            display: flex;
+            justify-content: space-between;
+            @media (max-width:768px) {
+                display: flex;
+                justify-content: center;
+                height: 40vh;
+            }
+            a {
+                cursor: pointer;
+                color: $textColor;
+                text-shadow:
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+            }
+        }
+        
+        
+    }
+}
+section#projects_03 {
+    background: url(/src/media/images/projects_03.webp) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: $textColor;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;    h2 {
+        @include sec-title-h2;
+    }
+    h6 {
+        @include sec-m-16px;
+    }
+    p{
+        @include sec-body;
+    }
+
+    .content_projects {
+        padding: 2.5vh;
+        height: 95vh;
+        width: 100vw;
+        display: flex;
+        align-content: flex-end;
+        @media (max-width:768px) {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        .pot {
+            display: flex;
+            justify-content: space-between;
+            @media (max-width:768px) {
+                display: flex;
+                justify-content: center;
+                height: 40vh;
+            }
+            a {
+                cursor: pointer;
+                color: $textColor;
+                text-shadow:
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+            }
+        }
+        
+        
+    }
+}
+section#projects_04 {
+    background: url(/src/media/images/projects_04.webp) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: $textColor;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    h2 {
+        @include sec-title-h2;
+    }
+    h6 {
+        @include sec-m-16px;
+    }
+    p{
+        @include sec-body;
+    }
+
+    .content_projects {
+        padding: 2.5vh;
+        height: 95vh;
+        width: 100vw;
+        display: flex;
+        align-content: flex-end;
+        @media (max-width:768px) {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        .pot {
+            display: flex;
+            justify-content: space-between;
+            @media (max-width:768px) {
+                display: flex;
+                justify-content: center;
+                height: 40vh;
+            }
+            a {
+                cursor: pointer;
+                color: $textColor;
+                text-shadow:
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+            }
+        }
+        
+        
+    }
+}

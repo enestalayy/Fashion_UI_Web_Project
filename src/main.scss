@@ -1,0 +1,32 @@
+@import "utils/fonts.scss";
+@import "utils/variable.scss";
+@import "utils/typography.scss";
+@import "utils/mixin.scss";
+@import "styles/normalize.scss";
+
+// GENERAL STYLES
+@import "styles/style.scss";
+
+// Navigation
+@import "components/navigation.scss";
+
+// Home Page Style
+@import "styles/home.scss";
+// Play Pause Button      
+@import "components/playpause.scss";
+// Overview Page Style
+@import "styles/overview.scss";
+// featured
+@import "styles/featured.scss";
+// Components
+@import "components/bot-side.scss";
+// About Page Style
+@import "styles/about.scss";
+// Projects Page Style
+@import "styles/projects.scss";
+// Clients Page Style
+@import "styles/clients.scss";
+// Projects Info Style
+@import "styles/projects_info.scss";
+// Contact Page Style
+@import "styles/contact.scss";                                                                                          

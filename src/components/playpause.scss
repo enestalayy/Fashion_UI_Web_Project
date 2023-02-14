@@ -1,0 +1,28 @@
+.command {
+    position: absolute;
+    color: $textColor;
+    top: 90%;
+    right: 7%;
+    label {
+        color: $textColor;
+        .change span::before {
+            content: attr(data-play-text);
+        }
+        
+    }
+    #play-pause {
+
+        display: none;
+        &:checked {
+            & + .video_control {
+                label {
+
+                    .change span::before {
+
+                        content: attr(data-pause-text);
+                    }
+                }
+            }
+        }
+    }
+}

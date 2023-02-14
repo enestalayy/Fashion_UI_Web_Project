@@ -1,0 +1,42 @@
+.overview {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    width: 100%;
+    min-height: 100vh;
+    background-color: $textColor;
+    position: relative;
+    
+    .overview-block{
+        padding-left: 5vw;
+        color: rgba($color: #000000, $alpha: .9);
+        @media (max-width: 667px) {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        :not(:last-child) {
+            padding-bottom: 2vh;
+        }
+        .section-title {
+            @include sec-title;
+
+        }
+        .section-body {
+            @include sec-body;
+        }
+        .about-us {
+            @include sec-m-16px;
+            background-color: transparent;
+        }
+    }
+    .right-overview {
+        position: absolute;
+        right: 0;
+        bottom: 50px;
+        width: 45%;
+        height: auto;
+        @media (max-width: 667px) {
+            visibility: hidden;
+        }
+        
+    }
+}
